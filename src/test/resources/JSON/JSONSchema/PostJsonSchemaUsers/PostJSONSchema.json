@@ -2,23 +2,27 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "userId": {
-      "type": "integer"
-    },
     "id": {
       "type": "integer"
     },
-    "title": {
+    "name": {
       "type": "string"
     },
-    "completed": {
-      "type": "boolean"
+    "email": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
     }
   },
   "required": [
-    "userId",
     "id",
-    "title",
-    "completed"
+    "name",
+    "email",
+    "gender",
+    "status"
   ]
 }
